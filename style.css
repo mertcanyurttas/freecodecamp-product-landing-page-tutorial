@@ -14,7 +14,7 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #eee;
+    background-color: #eeeeee;
 }
 
 /* General Settings */
@@ -36,7 +36,7 @@ header nav {
     padding: 20px 40px;
     position: fixed;
     top: 0px;
-    background-color: #eee;
+    background-color: #eeeeee;
 }
 
 header nav #banner-left-div img {
