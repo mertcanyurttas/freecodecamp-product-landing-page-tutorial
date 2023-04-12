@@ -66,7 +66,7 @@ header nav #nav-right-div ul li {
 
 header nav #nav-right-div ul li a {
     text-decoration: none;
-    color: #000;
+    color: #000000;
 }
 
 /* Header Navigation Finish */
@@ -139,7 +139,7 @@ main #features .article-divs .icon-div {
     align-items: center;
     width: 20vw;
     height: 125px;
-    color: darkorange;
+    color: #ff8c00;
 }
 
 main #features .article-divs .icon-div i {
@@ -252,7 +252,7 @@ footer {
     max-width: 1000px;
     margin: 30px auto 0px;
     padding: 20px;
-    background-color: #ddd;
+    background-color: #dddddd;
 }
 
 footer div ul {
@@ -267,7 +267,7 @@ footer div ul li {
 
 footer div ul li a {
     text-decoration: none;
-    color: #000;
+    color: #000000;
 }
 
 footer div p {
@@ -275,12 +275,12 @@ footer div p {
     justify-content: flex-end;
     margin-top: 5px;
     font-size: 0.9em;
-    color: #444;
+    color: #444444;
 }
 
 /* Footer Finish */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1100px) {
     main {
         max-width: 95vw;
     }
@@ -290,13 +290,13 @@ footer div p {
     }
 }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 850px) {
     main #how-it-works iframe {
         max-width: 68vw;
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 450px) {
     header nav {
         flex-direction: column;
         -ms-flex-direction: column;
