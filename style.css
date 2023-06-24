@@ -307,7 +307,7 @@ footer div p {
     }
 
     header form h1 {
-        margin-top: 40px;
+        margin-top: 50px;
         padding: 0px 20px;
         font-size: 16px;
     }
@@ -330,12 +330,20 @@ footer div p {
 }
 
 @media only screen and (max-width: 450px) {
+    header nav #banner-left-div img {
+        width: 80%;
+    }
+
     header form {
         margin-top: 130px;
     }
 
     header form h1 {
-        margin-top: 0px;
+        margin-top: 20px;
+    }
+
+    header form input[type="email"] {
+        width: 220px;
     }
 
     main {
