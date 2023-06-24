@@ -280,6 +280,8 @@ footer div p {
 
 /* Footer Finish */
 
+/* For Tablet Devices Start */
+
 @media only screen and (max-width: 1100px) {
     main {
         max-width: 95vw;
@@ -329,6 +331,10 @@ footer div p {
     }
 }
 
+/* For Tablet Devices Finish */
+
+/* For Mobile Devices Start */
+
 @media only screen and (max-width: 450px) {
     header nav #banner-left-div img {
         width: 80%;
@@ -339,7 +345,7 @@ footer div p {
     }
 
     header form h1 {
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     header form input[type="email"] {
@@ -352,12 +358,16 @@ footer div p {
     
     main #features {
         margin-top: 10px;
-        scroll-margin-top: 120px;
+        scroll-margin-top: 180px;
+    }
+
+    main #features .article-divs {
+        margin-bottom: 10px;
     }
 
     main #how-it-works {
         margin-top: 30px;
-        scroll-margin-top: 150px;
+        scroll-margin-top: 180px;
     }
 
     main #how-it-works iframe {
@@ -368,7 +378,7 @@ footer div p {
         margin-top: 30px;
         flex-direction: column;
         -ms-flex-direction: column;
-        scroll-margin-top: 130px;
+        scroll-margin-top: 180px;
     }
 
     main #pricing .product-divs {
@@ -396,3 +406,5 @@ footer div p {
         margin-bottom: 2px;
     }
 }
+
+/* For Mobile Devices Finish */
