@@ -6,28 +6,28 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-}
-
-html {
+  }
+  
+  html {
     scroll-behavior: smooth;
-}
-
-body {
+  }
+  
+  body {
     font-family: 'Lato', sans-serif;
     background-color: #eeeeee;
-}
-
-/* General Settings */
-
-/* Header Navigation Start */
-
-header {
+  }
+  
+  /* General Settings */
+  
+  /* Header Navigation Start */
+  
+  header {
     display: flex;
     flex-direction: column;
     -ms-flex-direction: column;
-}
-
-header nav {
+  }
+  
+  header nav {
     display: flex;
     flex-direction: row;
     -ms-flex-direction: row;
@@ -37,63 +37,61 @@ header nav {
     position: fixed;
     top: 0px;
     background-color: #eeeeee;
-}
-
-header nav #banner-left-div img {
+  }
+  
+  header nav #banner-left-div img {
     display: block;
     width: 300px;
     max-width: 300px;
-}
-
-header nav #nav-right-div {
+  }
+  
+  header nav #nav-right-div {
     display: flex;
     align-items: center;
-}
-
-header nav #nav-right-div ul {
+  }
+  
+  header nav #nav-right-div ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 36vw;
     font-size: 15px;
     font-weight: 400;
-    letter-spacing: 0.6px;
-}
-
-header nav #nav-right-div ul li {
     list-style-type: none;
-}
-
-header nav #nav-right-div ul li a {
+    letter-spacing: 0.6px;
+  }
+  
+  header nav #nav-right-div ul li a {
     text-decoration: none;
     color: #000000;
-}
-
-/* Header Navigation Finish */
-
-/* Header Form Start */
-
-header form {
+  }
+  
+  /* Header Navigation Finish */
+  
+  /* Header Form Start */
+  
+  header form {
     display: flex;
     flex-direction: column;
     -ms-flex-direction: column;
     margin-top: 84px;
-}
-
-header form h1 {
+  }
+  
+  header form h1 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 23px;
     font-weight: 600;
-}
-
-header form input[type="email"] {
+  }
+  
+  header form input[type="email"] {
     width: 274px;
     margin: auto;
     padding: 5px;
-}
-
-header form input[type="submit"] {
+    outline: none;
+  }
+  
+  header form input[type="submit"] {
     width: 100%;
     max-width: 150px;
     margin: 15px auto;
@@ -108,46 +106,46 @@ header form input[type="submit"] {
     -webkit-transition: 1s;
     text-transform: uppercase;
     background-color: #f1c40f;
-}
-
-header form input[type="submit"]:hover {
+  }
+  
+  header form input[type="submit"]:hover {
     background-color: #ffa500;
-}
-
-/* Header Form Finish */
-
-/* Features Section Start*/
-
-main {
+  }
+  
+  /* Header Form Finish */
+  
+  /* Features Section Start*/
+  
+  main {
     width: 100%;
     max-width: 1000px;
     margin: 0px auto;
-}
-
-main #features {
-    margin-top: 60px;
+  }
+  
+  main #features {
+    margin-top: 50px;
     scroll-margin-top: 70px;
-}
-
-main #features .article-divs {
+  }
+  
+  main #features .article-divs {
     display: flex;
-}
-
-main #features .article-divs .icon-div {
+  }
+  
+  main #features .article-divs .icon-div {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 20vw;
     height: 125px;
     color: #ff8c00;
-}
-
-main #features .article-divs .icon-div i {
+  }
+  
+  main #features .article-divs .icon-div i {
     font-size: 48px;
     font-weight: 900;
-}
-
-main #features .article-divs .text-div {
+  }
+  
+  main #features .article-divs .text-div {
     display: flex;
     flex-direction: column;
     -ms-flex-direction: column;
@@ -155,38 +153,38 @@ main #features .article-divs .text-div {
     width: 80vw;
     height: 125px;
     padding: 5px;
-}
-
-/* Features Section Finish */
-
-/* How It Works Section Start */
-
-main #how-it-works {
-    margin-top: 60px;
+  }
+  
+  /* Features Section Finish */
+  
+  /* How It Works Section Start */
+  
+  main #how-it-works {
+    margin-top: 50px;
     scroll-margin-top: 120px;
-}
-
-main #how-it-works iframe {
+  }
+  
+  main #how-it-works iframe {
     display: block;
     width: 100%;
     max-width: 560px;
     height: 315px;
     margin: auto;
-}
-
-/* How It Works Section Finish */
-
-/* Pricing Section Start */
-
-main #pricing {
+  }
+  
+  /* How It Works Section Finish */
+  
+  /* Pricing Section Start */
+  
+  main #pricing {
     display: flex;
     flex-direction: row;
     -ms-flex-direction: row;
     justify-content: center;
-    margin-top: 60px;
-}
-
-main #pricing .product-divs {
+    margin-top: 50px;
+  }
+  
+  main #pricing .product-divs {
     display: flex;
     flex-direction: column;
     -ms-flex-direction: column;
@@ -196,9 +194,9 @@ main #pricing .product-divs {
     text-align: center;
     border: 1px solid #000000;
     border-radius: 3px;
-}
-
-main #pricing .product-divs h3 {
+  }
+  
+  main #pricing .product-divs h3 {
     width: 100%;
     padding: 16px 0px;
     font-size: 15px;
@@ -206,23 +204,23 @@ main #pricing .product-divs h3 {
     text-transform: uppercase;
     color: #000000;
     background-color: #dddddd;
-}
-
-main #pricing .product-divs p {
+  }
+  
+  main #pricing .product-divs p {
     margin-top: 15px;
     font-size: 24px;
-}
-
-main #pricing .product-divs ul {
+  }
+  
+  main #pricing .product-divs ul {
     margin: 16px auto;
     list-style-type: none;
-}
-
-main #pricing .product-divs ul li {
+  }
+  
+  main #pricing .product-divs ul li {
     padding: 5px;
-}
-
-main #pricing .product-divs button {
+  }
+  
+  main #pricing .product-divs button {
     margin: 15px 0px;
     padding: 0px 20px;
     height: 40px;
@@ -237,174 +235,174 @@ main #pricing .product-divs button {
     -webkit-transition: 1s;
     text-transform: uppercase;
     background-color: #f1c40f;
-}
-
-main #pricing .product-divs button:hover {
+  }
+  
+  main #pricing .product-divs button:hover {
     background-color: #ffa500;
-}
-
-/* Pricing Section Finish */
-
-/* Footer Start */
-
-footer {
+  }
+  
+  /* Pricing Section Finish */
+  
+  /* Footer Start */
+  
+  footer {
     width: 100%;
     max-width: 1000px;
     margin: 30px auto 0px;
     padding: 20px;
     background-color: #dddddd;
-}
-
-footer div ul {
+  }
+  
+  footer div ul {
     display: flex;
     justify-content: flex-end;
-}
-
-footer div ul li {
+  }
+  
+  footer div ul li {
     padding: 0px 10px;
     list-style-type: none;
-}
-
-footer div ul li a {
+  }
+  
+  footer div ul li a {
     text-decoration: none;
     color: #000000;
-}
-
-footer div p {
+  }
+  
+  footer div p {
     display: flex;
     justify-content: flex-end;
     margin-top: 5px;
     font-size: 0.9em;
     color: #444444;
-}
-
-/* Footer Finish */
-
-/* For Tablet Devices Start */
-
-@media only screen and (max-width: 1100px) {
+  }
+  
+  /* Footer Finish */
+  
+  /* For Tablet Devices Start */
+  
+  @media only screen and (max-width: 1100px) {
     main {
         max-width: 95vw;
     }
-
+  
     footer {
         max-width: 95vw;
     }
-}
-
-@media only screen and (max-width: 850px) {
+  }
+  
+  @media only screen and (max-width: 850px) {
     header nav {
         flex-direction: column;
         -ms-flex-direction: column;
         padding: 0px;
     }
-
+  
     header nav #banner-left-div img {
         margin: 18px auto;
     }
-
+  
     header nav #nav-right-div ul {
         width: 100%;
         padding: 15px 0px;
     }
-
+  
     header form h1 {
         margin-top: 50px;
         padding: 0px 20px;
         font-size: 16px;
     }
-
+  
     main #features {
         scroll-margin-top: 130px;
     }
-
+  
     main #how-it-works {
         scroll-margin-top: 130px;
     }
-
+  
     main #how-it-works iframe {
         max-width: 68vw;
     }
-
+  
     main #pricing {
         scroll-margin-top: 130px;
     }
-}
-
-/* For Tablet Devices Finish */
-
-/* For Mobile Devices Start */
-
-@media only screen and (max-width: 450px) {
+  }
+  
+  /* For Tablet Devices Finish */
+  
+  /* For Mobile Devices Start */
+  
+  @media only screen and (max-width: 450px) {
     header nav #banner-left-div img {
         width: 80%;
     }
-
+  
     header form {
         margin-top: 130px;
     }
-
+  
     header form h1 {
         margin-top: 0px;
     }
-
+  
     header form input[type="email"] {
         width: 220px;
     }
-
+  
     main {
         width: 96vw;
     }
     
     main #features {
         margin-top: 10px;
-        scroll-margin-top: 180px;
+        scroll-margin-top: 125px;
     }
-
+  
     main #features .article-divs {
-        margin-bottom: 10px;
+        margin-bottom: 14px;
     }
-
+  
     main #how-it-works {
         margin-top: 30px;
-        scroll-margin-top: 180px;
+        scroll-margin-top: 140px;
     }
-
+  
     main #how-it-works iframe {
         max-width: 90vw;
     }
-
+  
     main #pricing {
         margin-top: 30px;
         flex-direction: column;
         -ms-flex-direction: column;
-        scroll-margin-top: 180px;
+        scroll-margin-top: 125px;
     }
-
+  
     main #pricing .product-divs {
         width: 88vw;
         margin: 10px auto;
     }
-
+  
     footer {
         width: 90vw;
         margin: 22px auto 0px;
         padding: 10px;
     }
-
+  
     footer div ul {
         justify-content: center;
     }
-
+  
     footer div ul li {
         padding: 0px 16px;
     }
-
+  
     footer div p {
         justify-content: center;
         margin-top: 5px;
         margin-bottom: 2px;
     }
-}
-
-/* For Mobile Devices Finish */
+  }
+  
+  /* For Mobile Devices Finish */
